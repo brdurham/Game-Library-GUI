@@ -10,5 +10,5 @@ games = { 1: ['FPS', 'Halo3', 'Bungie', 'Microsoft', 'Xbox360', '2007',
 
 
 datafile = open("game_lib.pickle", "wb")
-pickle.dump(games, data_file)
+pickle.dump(games, datafile)
 datafile.close()
